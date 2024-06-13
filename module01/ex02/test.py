@@ -1,5 +1,6 @@
 from vector import Vector
 
-v2 = (10, 16)
-print(type(v2))
-# v1 = Vector([[1.0, 2.0]])
+v3 = Vector([[1.0, 3.0]])
+v4 = Vector([[2.0, 4.0, 5.0]])
+
+print(v3.dot(v4))
